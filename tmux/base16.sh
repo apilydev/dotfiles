@@ -29,7 +29,7 @@ set-window-option -g window-status-format " #I #W"
 
 # active window title colors
 set-window-option -g window-status-current-style fg=$base0C,bg=$base00
-set-window-option -g window-status-current-format " #[bold]#W"
+set-window-option -g window-status-current-format " #I #[bold]#W"
 
 # pane border colors
 set-window-option -g pane-active-border-style fg=$base0C
@@ -52,4 +52,4 @@ tm_tunes="#[bg=$base00,fg=$base0D] ♫ #(osascript -l JavaScript ~/.dotfiles/app
 tm_battery="#[fg=$base0F,bg=$base00] ♥ #(battery)"
 tm_date="#[default,bg=$base00,fg=$base0C] %R"
 tm_host="#[fg=$base0E,bg=$base00] #h "
-set -g status-right "$tm_tunes $tm_battery $tm_date $tm_host"
+set -g status-right "$tm_battery $tm_date $tm_host"
