@@ -182,3 +182,7 @@
 [rebase]
 	instructionFormat = "[%an - %ar] %s"
 	autoStash = true
+[url "https://github.com/"]
+	insteadOf = git@github.com:
+[url "https://"]
+	insteadOf = git://

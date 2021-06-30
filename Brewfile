@@ -63,7 +63,6 @@ end
 
 tap "homebrew/bundle"
 tap "homebrew/core"
-tap "schniz/tap"
 
 # packages
 brew "ack"
@@ -88,7 +87,7 @@ brew "neofetch"
 brew "neovim"
 brew "python"
 brew "ripgrep"
-brew "schniz/tap/fnm"
+brew "fnm"
 brew "shellcheck"
 brew "tmux"
 brew "tree"
@@ -97,3 +96,5 @@ brew "wdiff"
 brew "wget"
 brew "z"
 brew "zsh"
+brew "node"
+brew "az"
