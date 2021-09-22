@@ -37,6 +37,8 @@ require("gitsigns").setup {
   sign_priority = 6,
   update_debounce = 100,
   status_formatter = nil, -- Use default
-  word_diff = true,
-  use_internal_diff = true -- If luajit is present
+  word_diff = false,
+  diff_opts = {
+    internal = true
+  }
 }
